@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48CC0B31FFB83DD00FDC5BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48CC0B21FFB83DD00FDC5BD /* AppDelegate.m */; };
+		F48CC0B61FFB83DD00FDC5BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48CC0B51FFB83DD00FDC5BD /* ViewController.m */; };
+		F48CC0B91FFB83DE00FDC5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CC0B71FFB83DE00FDC5BD /* Main.storyboard */; };
+		F48CC0BB1FFB83DE00FDC5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48CC0BA1FFB83DE00FDC5BD /* Assets.xcassets */; };
+		F48CC0BE1FFB83DE00FDC5BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CC0BC1FFB83DE00FDC5BD /* LaunchScreen.storyboard */; };
+		F48CC0C11FFB83DE00FDC5BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48CC0C01FFB83DE00FDC5BD /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F48CC0AE1FFB83DD00FDC5BD /* WatchVedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchVedio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48CC0B11FFB83DD00FDC5BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F48CC0B21FFB83DD00FDC5BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F48CC0B41FFB83DD00FDC5BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F48CC0B51FFB83DD00FDC5BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F48CC0B81FFB83DE00FDC5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48CC0BA1FFB83DE00FDC5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48CC0BD1FFB83DE00FDC5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F48CC0BF1FFB83DE00FDC5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48CC0C01FFB83DE00FDC5BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48CC0DD1FFB88B200FDC5BD /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F48CC0DF1FFB88C200FDC5BD /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F48CC0E11FFB88CB00FDC5BD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F48CC0E31FFB88DA00FDC5BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F48CC0E51FFB88E000FDC5BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F48CC0E61FFB88E800FDC5BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F48CC0E71FFB88F100FDC5BD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48CC0AB1FFB83DD00FDC5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48CC0A51FFB83DD00FDC5BD = {
+			isa = PBXGroup;
+			children = (
+				F48CC0B01FFB83DD00FDC5BD /* WatchVedio */,
+				F48CC0AF1FFB83DD00FDC5BD /* Products */,
+				F48CC0DC1FFB88B100FDC5BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F48CC0AF1FFB83DD00FDC5BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC0AE1FFB83DD00FDC5BD /* WatchVedio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48CC0B01FFB83DD00FDC5BD /* WatchVedio */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC0B11FFB83DD00FDC5BD /* AppDelegate.h */,
+				F48CC0B21FFB83DD00FDC5BD /* AppDelegate.m */,
+				F48CC0B41FFB83DD00FDC5BD /* ViewController.h */,
+				F48CC0B51FFB83DD00FDC5BD /* ViewController.m */,
+				F48CC0B71FFB83DE00FDC5BD /* Main.storyboard */,
+				F48CC0BA1FFB83DE00FDC5BD /* Assets.xcassets */,
+				F48CC0BC1FFB83DE00FDC5BD /* LaunchScreen.storyboard */,
+				F48CC0BF1FFB83DE00FDC5BD /* Info.plist */,
+				F48CC0C01FFB83DE00FDC5BD /* main.m */,
+			);
+			path = WatchVedio;
+			sourceTree = "<group>";
+		};
+		F48CC0DC1FFB88B100FDC5BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC0E71FFB88F100FDC5BD /* OpenGLES.framework */,
+				F48CC0E61FFB88E800FDC5BD /* QuartzCore.framework */,
+				F48CC0E51FFB88E000FDC5BD /* UIKit.framework */,
+				F48CC0E31FFB88DA00FDC5BD /* libz.tbd */,
+				F48CC0E11FFB88CB00FDC5BD /* libstdc++.tbd */,
+				F48CC0DF1FFB88C200FDC5BD /* libiconv.tbd */,
+				F48CC0DD1FFB88B200FDC5BD /* libbz2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48CC0AD1FFB83DD00FDC5BD /* WatchVedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48CC0C41FFB83DE00FDC5BD /* Build configuration list for PBXNativeTarget "WatchVedio" */;
+			buildPhases = (
+				F48CC0AA1FFB83DD00FDC5BD /* Sources */,
+				F48CC0AB1FFB83DD00FDC5BD /* Frameworks */,
+				F48CC0AC1FFB83DD00FDC5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchVedio;
+			productName = WatchBBC;
+			productReference = F48CC0AE1FFB83DD00FDC5BD /* WatchVedio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48CC0A61FFB83DD00FDC5BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					F48CC0AD1FFB83DD00FDC5BD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F48CC0A91FFB83DD00FDC5BD /* Build configuration list for PBXProject "WatchVedio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48CC0A51FFB83DD00FDC5BD;
+			productRefGroup = F48CC0AF1FFB83DD00FDC5BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48CC0AD1FFB83DD00FDC5BD /* WatchVedio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48CC0AC1FFB83DD00FDC5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CC0BE1FFB83DE00FDC5BD /* LaunchScreen.storyboard in Resources */,
+				F48CC0BB1FFB83DE00FDC5BD /* Assets.xcassets in Resources */,
+				F48CC0B91FFB83DE00FDC5BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48CC0AA1FFB83DD00FDC5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CC0B61FFB83DD00FDC5BD /* ViewController.m in Sources */,
+				F48CC0C11FFB83DE00FDC5BD /* main.m in Sources */,
+				F48CC0B31FFB83DD00FDC5BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F48CC0B71FFB83DE00FDC5BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48CC0B81FFB83DE00FDC5BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48CC0BC1FFB83DE00FDC5BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48CC0BD1FFB83DE00FDC5BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48CC0C21FFB83DE00FDC5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F48CC0C31FFB83DE00FDC5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48CC0C51FFB83DE00FDC5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USNB3DS9S4;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchVedio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatchBBC/Vitamio",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peng.WatchVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		F48CC0C61FFB83DE00FDC5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USNB3DS9S4;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchVedio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatchBBC/Vitamio",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peng.WatchVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48CC0A91FFB83DD00FDC5BD /* Build configuration list for PBXProject "WatchVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CC0C21FFB83DE00FDC5BD /* Debug */,
+				F48CC0C31FFB83DE00FDC5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48CC0C41FFB83DE00FDC5BD /* Build configuration list for PBXNativeTarget "WatchVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CC0C51FFB83DE00FDC5BD /* Debug */,
+				F48CC0C61FFB83DE00FDC5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48CC0A61FFB83DD00FDC5BD /* Project object */;
+}
